@@ -67,20 +67,22 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 25rem;
-    margin-bottom: 25rem;
+    margin: 15rem;
 }
 .sectionA p {
     margin: 50px 5px 5px 5px;
+    width: 400px;
+    height: 400px;
+    padding-right: 1rem;
 }
 .sectionA {
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
     
     text-align: center;
     
 }
 .sectionB {
-    margin-right: 15rem;
+    /* margin-right: 15rem; */
     
 }
 .sectionC {
@@ -159,7 +161,7 @@ section {
     background-color: white;
     width: 400px;
     height: 55rem;
-    margin-left: 16rem;
+    margin-left: 6rem;
     padding: 1rem;
     text-align: center;
     padding-top: 2rem;
@@ -167,20 +169,52 @@ section {
  .imgQuienesSomos {
     width: 400px;
     object-fit: cover;
-    margin-left: 1rem;
+    margin-left: 18.5rem;
     height: 55rem;
     
  }
  .subtituloQuienesSomos {
+    text-align: center;
     background-color: white;
     width: 20rem;
     height: 5rem;
-    margin-left: 45rem;
+    margin-left: 0rem;
     padding-top: 1.5rem;
  }
  /* PRODUCTOS */
 
 .imgProductos {
-    height: 65rem;
-    width: 40vw;
+    height: 42rem;
+    width: auto;
+    object-fit: cover;
+}
+/* INICIO */
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 10rem;
+    }
+}
+@media (max-width: 720px) {
+    h1 {
+        font-size: 7rem;
+    }
+    /* p {
+        font-size: 1.8rem;
+        
+        
+    } */
+}
+@media (max-width: 618px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .logo p {
+        text: none;
+    }
+}
+@media (max-width: 522px) {
+    h1 {
+        font-size: 3rem;
+    }
 }
