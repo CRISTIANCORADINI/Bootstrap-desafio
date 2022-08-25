@@ -161,7 +161,7 @@ section {
     background-color: white;
     width: 400px;
     height: 55rem;
-    margin-left: 6rem;
+   /*  margin-left: 6rem; */
     padding: 1rem;
     text-align: center;
     padding-top: 2rem;
@@ -169,7 +169,7 @@ section {
  .imgQuienesSomos {
     width: 400px;
     object-fit: cover;
-    margin-left: 18.5rem;
+    /* margin-left: 18.5rem; */
     height: 55rem;
     
  }
